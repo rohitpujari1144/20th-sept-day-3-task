@@ -1,0 +1,76 @@
+{
+    "personalinfo":
+        { 
+            "first_name":"Rohit",
+            "last_name":"Pujari",
+            "status":"student",
+            "email":"rohit10231@gmail.com",
+            "phone":"(+91) 8623867087",
+            "objective":"To work in an organization where I can use my skills, learning and energy to achieve organization objectives and get conductive environment to learn and grow",
+            "address":
+                {
+                    "house_name":"Pujari",
+                    "postalCode":"416120",
+                    "city":"Shirol",
+                    "state":"Maharashtra",
+                    "district":"Kolhapur"
+                },
+
+            "portfolio":"https://rohitpujari/portfolio.com"
+        },
+
+    "equcation":
+        [
+            {
+                "institution":"Dr. J. J. Magdum College of Engineering, Jaysingpur",
+                "area":"Electronics Engineering",
+                "type":"Bechelor of Engineering",
+                "acdamicYear":"2017-2022",
+                "percentage":"75.19"
+            },
+            
+            {
+                "institution":"Shri. Padmaraje Vidyalay and Junior College, Shirol",
+                "area":"Science",
+                "type":"HSC",
+                "acdamicYear":"2016-2017",
+                "percentage":"58.77"
+            },
+
+            {
+                "institution":"Shri. Padmaraje Vidyalay and Junior College, Shirol",
+                "area":"",
+                "type":"SSC",
+                "acdamicYear":"2014-2015",
+                "percentage":"81.80"
+            }
+        ],
+
+    "projects":
+        [
+            {
+                "name":"Mobile Detector Device",
+                "discription":"I have designed a circuit that acts as a mobile phone detector using CA3130 Op-Amp, BC548 NPN transistor, antenna etc"
+            },
+
+            {
+                "name":"Third Eye For Blind Person",
+                "discription":"Third Eye For Blind Person is a wearable device that can help the visually impaired people to move by themselves in a indoor as well as outdoor environment"
+            },
+        ],
+    
+    "Technical skill":
+        [
+            "C programming", "HTML", "CSS",
+        ],
+
+    "Soft skills":
+        [
+            "Confidence","Analytical problem solving","Time management"
+        ],
+
+    "hobbies": 
+        [
+            "Writing"
+        ]
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 1. For the given Json iterate over all for loops(for,for in, for of ,forEach) -->
+    
+    <script>
+        var req = new XMLHttpRequest();
+        req.open('GET','https://restcountries.com/v3.1/all',true);
+        req.send();
+        req.onload = function()
+            {
+                var JSONdata = JSON.parse(req.response)
+            
+                for(let i=0;i<JSONdata.length;i++) // for loop
+                    {
+                        console.log(JSONdata[i])
+                    }
+
+
+                for(var key in JSONdata) //for in loop
+                    {           
+                        console.log(JSONdata[key].region)
+                    }
+
+
+                for(var i of JSONdata) // for of loop
+                    {                  
+                        console.log(i.name.common +" tatal area :"+ i.area)
+                    }
+
+
+                JSONdata.forEach(element => // forEach loop
+                    {    
+                        console.log(element.name)
+                    });
+        }
+    </script>
+</body>
+</html>
